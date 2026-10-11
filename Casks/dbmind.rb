@@ -1,12 +1,12 @@
 cask "dbmind" do
-  version "1.2.13"
+  version "1.2.14"
 
   on_arm do
-    sha256 "9be18cdb7e2b91db12a28929f79ba0652c55b33edb93add0e301fb52db9b8d73"
+    sha256 "5167de405f81a43c85c916f6b23e83d3d72f76d2443aa61d46ae9542c28851bd"
     url "https://github.com/rick-works/dbmind/releases/download/v#{version}/DBmind_#{version}_aarch64.dmg"
   end
   on_intel do
-    sha256 "8d4761f655613272a7dfa8bcb9f4521489593653dcc4ebfae5e1f0fd0482f814"
+    sha256 "8bd35256bc2b66587a4a8bd48c7931c2e974ceac7f1d38358368a11ab62c4f9d"
     url "https://github.com/rick-works/dbmind/releases/download/v#{version}/DBmind_#{version}_x64.dmg"
   end
 
